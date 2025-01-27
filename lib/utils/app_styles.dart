@@ -17,6 +17,27 @@ class AppStyles{
     fontSize: 16,
     fontWeight: FontWeight.bold,
   );
+  static TextStyle medium14black = TextStyle(
+    color: AppColors.blackColor,
+    fontSize: 14,
+    fontWeight: FontWeight.bold,
+  );
+  static TextStyle medium24white = TextStyle(
+    color: AppColors.whiteColor,
+    fontSize: 24,
+    fontWeight: FontWeight.bold,
+  );
+  static TextStyle medium24black = TextStyle(
+    color: AppColors.blackColor,
+    fontSize: 24,
+    fontWeight: FontWeight.bold,
+  );
+  static TextStyle medium12grey = TextStyle(
+    color: AppColors.grayColor,
+    fontSize: 12,
+    fontWeight: FontWeight.bold,
+  );
+
 
 
 }

@@ -13,8 +13,7 @@ class SourceNameWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(source.name??'',
       style: isSelected ?
-          AppStyles.bold16white:
-          AppStyles.medium14white
-      ,);
+          Theme.of(context).textTheme.headlineLarge:
+      Theme.of(context).textTheme.headlineMedium      ,);
   }
 }
